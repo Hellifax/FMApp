@@ -8,7 +8,7 @@ namespace FileManager
     {
         static void Main(string[] args)
         {
-            if (Environment.OSVersion.Platform.ToString().StartsWith("Win32NT"))
+            if (Environment.OSVersion.Platform.ToString().StartsWith("Win32"))
                 Console.SetWindowSize(140, 35);
 
             FMApp.Run();
